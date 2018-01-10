@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <style>
+        p {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <label for="nome">NAME</label>
+        <input type="text" id="nome" name="nome" placeholder="Seu nome aqui"><br>
+        <label for="preco">PRICE</label>
+        <input type="number" id="preco" name="preco">
+        <label for="qtd">QUANTITY</label>
+        <input type="number" id="qtd" name="qtd">
+        <label for="total">TOTAL</label>
+        <input type="number" id="total" name="total">
+
+
+        <br><br>
+        <input type="button" value="Cadastrar" onclick="cadastrarProdutos()">
+        <input type="button" value="Listar" onclick="listarProdutos()">
+        
+    </form>    
+    
+    <div id="resultado">
+        
+    </div>
+
+    <script src="revisao-logica.js"></script>
+</body>
+</html>
